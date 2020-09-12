@@ -1,0 +1,30 @@
+let criminals = [
+    {
+        name:"evans",
+        age:"25",
+        country:"europe",
+        hobbies:['robbery','kill','games']
+    },
+    {
+        name:"roman",
+        age:"28",
+        country:"america",
+        hobbies:['kill','hack','games']
+    },
+    {
+        name:"peter",
+        age:"20",
+        country:"jorden",
+        hobbies:['robbery','kill','hack']
+    },
+    {
+        name:"charlie",
+        age:"30",
+        country:"london",
+        hobbies:['dance','kill','play']
+    }
+];
+function display(criminals){
+    console.log(criminals);
+}
+display(criminals);
